@@ -1,0 +1,45 @@
+{
+  "name": "geo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimAlexander/geo.git"
+  },
+  "author": "Alexander Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimAlexander/geo/issues"
+  },
+  "homepage": "https://github.com/KimAlexander/geo#readme",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base src --inline --hot --watch --https",
+    "start": "node server.js",
+    "postinstall": "webpack -p"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "express": "^4.15.4",
+    "html-webpack-plugin": "^2.30.1",
+    "material-ui": "^0.19.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-google-maps": "^9.0.1",
+    "react-redux": "^4.1.2",
+    "recompose": "^0.26.0",
+    "redux": "^3.1.2",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.2.0"
+  }
+}
